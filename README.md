@@ -7,6 +7,6 @@
 現在は検索に乗らないように設定しているので、サイト公開時には
 
 - robots.txt
-- <meta name="robots" content="noindex, nofollow"></meta>
+- \<meta name="robots" content="noindex, nofollow"></meta>
 
 を消すこと。
