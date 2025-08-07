@@ -9,6 +9,10 @@ export default function ({ title, children }: GlobalProps) {
       <Head>
         <title>{title}</title>
         <meta property="description" content="description" />
+        {/* noindexを指定すると検索に乗らないようになる */}
+        {/* サイト公開時には消す */}
+        {/* https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=ja */}
+        <meta name="robots" content="noindex, nofollow"></meta>
       </Head>
       <div className="flex flex-col justify-between items-center h-full max-w-none p-2">
         <article className="flex flex-col justify-between items-center p-4 space-y-4 md:space-y-4 lg:space-y-6 max-w-3xl">

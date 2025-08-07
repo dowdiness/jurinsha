@@ -1,0 +1,4 @@
+# Block all web crawlers from all content
+# https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=ja
+User-agent: *
+Disallow: /
