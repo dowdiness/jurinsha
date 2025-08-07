@@ -3,11 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "minista",
-    "build": "minista build",
-    "preview": "minista preview",
+    "minista:dev": "minista",
+    "minista:build": "minista build",
     "tailwind:dev": "npx tailwindcss -i ./src/assets/input.css -o ./src/assets/output.css --watch",
     "tailwind:build": "npx tailwindcss -i ./src/assets/input.css -o ./src/assets/output.css --minify",
+    "dev": "npx concurrently \"npm run minista:dev\" \"npm run tailwind:dev\"",
+    "build": "npm run tailwind:build && npm run minista:build",
+    "preview": "minista preview",
     "deploy": "wrangler deploy"
   },
   "prettier": {
