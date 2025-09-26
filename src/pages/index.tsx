@@ -1,14 +1,19 @@
 import type { PageProps, Metadata } from "minista"
 import { Image } from "minista"
+import { Hero } from "../components/hero"
+import { Story } from "../components/story"
+import { Character } from "../components/character"
 
 export const metadata: Metadata = {
-  title: "十輪車",
+  title: "かんちこんち",
 }
 
 export default function ({}: PageProps) {
   return (
-    <>
-      <Image src="/src/assets/images/棒振りの人.jpg" alt="棒振りの人" width="300" />
-    </>
+    <div className="flex flex-col justify-between items-center h-full max-w-none p-4 space-y-4">
+      <Hero />
+      <Story />
+      <Character />
+    </div>
   )
 }
