@@ -1,8 +1,10 @@
+import { Image } from "minista"
+
 export function Hero() {
   return (
     <div className="w-full h-screen">
       <div className="size-full overflow-hidden grid place-items-center">
-        <img
+        <Image
           alt="表紙画像"
           src="/src/assets/images/dummy.webp"
           className="absolute inset-0 -z-10 size-full object-cover"

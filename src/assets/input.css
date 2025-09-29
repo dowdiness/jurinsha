@@ -1,2 +1,16 @@
+/* shippori-mincho-regular - japanese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/shippori-mincho-v17-japanese-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 @import "tailwindcss";
+
+@theme {
+  --font-serif: "Shippori Mincho", font-serif;
+}
+
 @plugin "@tailwindcss/typography";
