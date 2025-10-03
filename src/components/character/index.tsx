@@ -8,7 +8,7 @@ export function Character() {
         {Object.entries(characters).map(([key, value]) => (
           <div key={key}>
             <h3 className="text-2xl font-semibold mb-2">{key}</h3>
-            <p className="text-lg leading-relaxed">{value}</p>
+            <p className="text-lg leading-relaxed font-serif">{value}</p>
           </div>
         ))}
       </div>

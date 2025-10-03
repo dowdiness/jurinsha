@@ -14,7 +14,9 @@ export default function ({ title, children }: GlobalProps) {
         {/* https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=ja */}
         <meta name="robots" content="noindex, nofollow"></meta>
       </Head>
-      {children}
+      <div className="paper-background min-h-screen">
+        {children}
+      </div>
     </>
   )
 }
