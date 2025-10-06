@@ -11,6 +11,8 @@
 
 @theme {
   --font-serif: "Shippori Mincho", font-serif;
+  --color-beni:   #c22047
+;
 }
 
 @plugin "@tailwindcss/typography";
