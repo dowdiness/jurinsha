@@ -3,10 +3,10 @@ import "./story.css"
 
 export function Story() {
   return (
-    <div className="synopsis-container w-full max-w-4xl mx-auto">
+    <div className="w-full">
       {/* タイトル部分 */}
       <div className="text-center mb-12">
-        <h2 className="synopsis-title text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
+        <h2 className="font-rounded font-medium text-4xl md:text-5xl text-gray-900 mb-6">
           あらすじ
         </h2>
         <div className="decorative-border w-32 mx-auto mt-8"></div>
@@ -17,7 +17,7 @@ export function Story() {
         {Object.entries(synopsis).map(([key, value], index) => (
           <div
             key={key}
-            className="paper-texture relative rounded-2xl p-6 md:p-8 border border-gray-200 overflow-hidden bg-gray-200"
+            className="relative rounded-2xl p-6 md:p-8 border border-gray-200 overflow-hidden bg-gray-200"
           >
 
             {/* セクション番号 */}
@@ -27,7 +27,7 @@ export function Story() {
 
             {/* セクションタイトル */}
             <div className="mb-6 pt-8 pl-4">
-              <h3 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
+              <h3 className="text-3xl md:text-4xl font-rounded font-medium text-gray-900 mb-4">
                 <span className="bg-gradient-to-r from-gray-600 to-gray-800 bg-clip-text text-transparent">
                   {key}
                 </span>
