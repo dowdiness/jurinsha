@@ -15,9 +15,11 @@ export default function ({ title, children }: GlobalProps) {
         <meta name="robots" content="noindex, nofollow"></meta>
         <script type="module" src="/src/assets/paperOverlay.ts" defer></script>
       </Head>
-      <div className="relative min-h-screen min-w-screen flex flex-col justify-between items-center h-full max-w-none p-4 space-y-4">
+      <div className="relative min-h-screen min-w-screen">
         <div className="paper-overlay"></div>
-        {children}
+        <div className="size-full flex flex-col justify-center items-center space-y-16 bg-beige">
+          {children}
+        </div>
       </div>
     </>
   )
