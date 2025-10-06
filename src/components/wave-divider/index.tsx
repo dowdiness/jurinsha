@@ -4,7 +4,7 @@ export function WaveDivider() {
   return (
     <div className="wave-divider relative">
       <svg
-        className="w-full h-24 md:h-32"
+        className="w-full h-24 sm:h-32 md:h-40"
         viewBox="0 0 1200 120"
         preserveAspectRatio="none"
         xmlns="http://www.w3.org/2000/svg"
