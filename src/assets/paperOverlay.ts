@@ -1,5 +1,6 @@
-const paperOverlay = `
-  <filter id="paperOverlay">
+const filterId = 'paperOverlay'
+const svgFilter = `
+  <filter id="${filterId}">
     <feTurbulence
       type="fractalNoise"
       baseFrequency="0.08"
@@ -41,10 +42,8 @@ const paperOverlay = `
 const initSvgFilter = () => {
   const NS = 'http://www.w3.org/2000/svg'
   const el = document.createElementNS(NS, 'svg')
-  el.innerHTML = paperOverlay
+  el.innerHTML = svgFilter
   document.body.appendChild(el)
 }
-
-console.log('initSvgFilter')
 
 initSvgFilter();
