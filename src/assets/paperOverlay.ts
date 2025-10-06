@@ -43,6 +43,7 @@ const initSvgFilter = () => {
   const NS = 'http://www.w3.org/2000/svg'
   const el = document.createElementNS(NS, 'svg')
   el.innerHTML = svgFilter
+  el.setAttribute('style', 'position: absolute; width: 0; height: 0;')
   document.body.appendChild(el)
 }
 
