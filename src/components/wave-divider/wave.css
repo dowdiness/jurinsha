@@ -1,0 +1,40 @@
+/* 波の区切り線コンポーネント専用スタイル */
+
+.wave-divider {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #c22047 0%, #fbf6ef 100%);
+}
+
+/* 波のアニメーション */
+.wave-path {
+  animation: waveFloat 6s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.wave-path-secondary {
+  animation: waveFloat 8s ease-in-out infinite reverse;
+  transform-origin: center;
+}
+
+@keyframes waveFloat {
+  0%, 100% {
+    transform: translateY(0px) scaleY(1);
+  }
+  50% {
+    transform: translateY(-3px) scaleY(1.05);
+  }
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 768px) {
+  .wave-divider svg {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wave-divider svg {
+    height: 2.5rem;
+  }
+}
