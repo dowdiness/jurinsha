@@ -1,5 +1,3 @@
-// import { Image } from "minista"
-
 export function Hero() {
   return (
     <div className="w-full h-[90svh] isolate">
@@ -11,6 +9,9 @@ export function Hero() {
           <h1 className="text-5xl font-semibold tracking-widest text-balance font-serif text-gray-50 drop-shadow-lg vertical-rl">
             かんちこんち
           </h1>
+        </div>
+        <div className="absolute right-8 bg-gray-800 w-32 md:w-64 h-[60%] md:h-[80%] text-gray-50">
+          綾傘鉾
         </div>
       </div>
     </div>

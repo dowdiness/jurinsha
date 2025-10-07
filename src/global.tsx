@@ -17,7 +17,7 @@ export default function ({ title, children }: GlobalProps) {
       </Head>
       <div className="relative min-h-screen min-w-screen">
         <div className="paper-overlay"></div>
-        <div className="size-full flex flex-col justify-center items-center space-y-16 bg-beige">
+        <div className="size-full flex flex-col justify-center items-center space-y-8 bg-beige">
           {children}
         </div>
       </div>
