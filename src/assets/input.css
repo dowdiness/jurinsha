@@ -4,7 +4,7 @@
   font-family: 'Shippori Mincho';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/shippori-mincho-v17-japanese-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/shippori-mincho-v17-japanese-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* shippori-antique-regular - japanese */
@@ -13,7 +13,7 @@
   font-family: 'Shippori Antique';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/shippori-antique-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/shippori-antique-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 @font-face {
@@ -21,7 +21,7 @@
   font-family: 'M PLUS Rounded 1c';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/MPLUSRounded1c-Medium.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/MPLUSRounded1c-Medium.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 @font-face {
@@ -29,7 +29,7 @@
   font-family: 'M PLUS Rounded 1c';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/MPLUSRounded1c-Bold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/MPLUSRounded1c-Bold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 @import "tailwindcss";
