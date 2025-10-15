@@ -16,7 +16,7 @@ export function Story() {
   return (
     <div className="w-full">
       {/* あらすじコンテンツ */}
-      <div className="prose lg:prose-lg max-w-none px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 2xl:px-64 text-gray-900 text-xl/relaxed font-serif whitespace-pre-wrap">
+      <div className="prose lg:prose-lg xl:prose-xl 2xl:prose-2xl max-w-none mx-6 sm:mx-12 md:mx-16 lg:mx-32 xl:mx-48 2xl:mx-64 text-gray-900 text-xl/relaxed whitespace-pre-wrap">
         {md}
       </div>
     </div>
