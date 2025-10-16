@@ -9,7 +9,9 @@ export function Hero() {
             かんちこんち
           </h1>
         </div>
-        <Image src="/src/assets/images/ayakasahoko.png" className="absolute right-0 w-full object-contain object-top-right h-full -mr-6 sm:-mr-12 md:-mr-16 lg:-mr-32 xl:-mr-48 2xl:-mr-64" aspect="1.414:1" width="800" height="1120" />
+        <div className="absolute right-0 size-full -mr-6 sm:-mr-12 md:-mr-16 lg:-mr-32 xl:-mr-48 2xl:-mr-64">
+          <Image src="/src/assets/images/ayakasahoko.png" className="object-contain object-top-right size-full" aspect="1.414:1" width="800" height="1120" />
+        </div>
       </div>
     </div>
   )
